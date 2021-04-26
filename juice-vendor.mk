@@ -3002,7 +3002,41 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/juice/proprietary/vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/5_version_update_ecc_table.sql \
     vendor/xiaomi/juice/proprietary/vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/6_version_update_ecc_table.sql \
     vendor/xiaomi/juice/proprietary/vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/7_version_update_ecc_table.sql \
-    vendor/xiaomi/juice/proprietary/vendor/recovery-from-boot.p:$(TARGET_COPY_OUT_VENDOR)/recovery-from-boot.p
+    vendor/xiaomi/juice/proprietary/vendor/recovery-from-boot.p:$(TARGET_COPY_OUT_VENDOR)/recovery-from-boot.p \
+    vendor/xiaomi/juice/proprietary/vendor/lib/modules/audio_adsp_loader.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_adsp_loader.ko \
+    vendor/xiaomi/juice/proprietary/vendor/lib/modules/audio_apr.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_apr.ko \
+    vendor/xiaomi/juice/proprietary/vendor/lib/modules/audio_aw87359_audio.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_aw87359_audio.ko \
+    vendor/xiaomi/juice/proprietary/vendor/lib/modules/audio_aw87519_audio.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_aw87519_audio.ko \
+    vendor/xiaomi/juice/proprietary/vendor/lib/modules/audio_bolero_cdc.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_bolero_cdc.ko \
+    vendor/xiaomi/juice/proprietary/vendor/lib/modules/audio_machine_bengal.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_machine_bengal.ko \
+    vendor/xiaomi/juice/proprietary/vendor/lib/modules/audio_mbhc.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_mbhc.ko \
+    vendor/xiaomi/juice/proprietary/vendor/lib/modules/audio_native.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_native.ko \
+    vendor/xiaomi/juice/proprietary/vendor/lib/modules/audio_pinctrl_lpi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_pinctrl_lpi.ko \
+    vendor/xiaomi/juice/proprietary/vendor/lib/modules/audio_platform.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_platform.ko \
+    vendor/xiaomi/juice/proprietary/vendor/lib/modules/audio_pm2250_spmi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_pm2250_spmi.ko \
+    vendor/xiaomi/juice/proprietary/vendor/lib/modules/audio_q6.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_q6.ko \
+    vendor/xiaomi/juice/proprietary/vendor/lib/modules/audio_q6_notifier.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_q6_notifier.ko \
+    vendor/xiaomi/juice/proprietary/vendor/lib/modules/audio_q6_pdr.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_q6_pdr.ko \
+    vendor/xiaomi/juice/proprietary/vendor/lib/modules/audio_rouleur.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_rouleur.ko \
+    vendor/xiaomi/juice/proprietary/vendor/lib/modules/audio_rouleur_slave.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_rouleur_slave.ko \
+    vendor/xiaomi/juice/proprietary/vendor/lib/modules/audio_rx_macro.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_rx_macro.ko \
+    vendor/xiaomi/juice/proprietary/vendor/lib/modules/audio_snd_event.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_snd_event.ko \
+    vendor/xiaomi/juice/proprietary/vendor/lib/modules/audio_stub.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_stub.ko \
+    vendor/xiaomi/juice/proprietary/vendor/lib/modules/audio_swr.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_swr.ko \
+    vendor/xiaomi/juice/proprietary/vendor/lib/modules/audio_swr_ctrl.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_swr_ctrl.ko \
+    vendor/xiaomi/juice/proprietary/vendor/lib/modules/audio_tx_macro.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_tx_macro.ko \
+    vendor/xiaomi/juice/proprietary/vendor/lib/modules/audio_usf.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_usf.ko \
+    vendor/xiaomi/juice/proprietary/vendor/lib/modules/audio_va_macro.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_va_macro.ko \
+    vendor/xiaomi/juice/proprietary/vendor/lib/modules/audio_wcd937x.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_wcd937x.ko \
+    vendor/xiaomi/juice/proprietary/vendor/lib/modules/audio_wcd937x_slave.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_wcd937x_slave.ko \
+    vendor/xiaomi/juice/proprietary/vendor/lib/modules/audio_wcd9xxx.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_wcd9xxx.ko \
+    vendor/xiaomi/juice/proprietary/vendor/lib/modules/audio_wcd_core.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_wcd_core.ko \
+    vendor/xiaomi/juice/proprietary/vendor/lib/modules/exfat.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/exfat.ko \
+    vendor/xiaomi/juice/proprietary/vendor/lib/modules/modules.alias:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.alias \
+    vendor/xiaomi/juice/proprietary/vendor/lib/modules/modules.dep:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.dep \
+    vendor/xiaomi/juice/proprietary/vendor/lib/modules/modules.load:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.load \
+    vendor/xiaomi/juice/proprietary/vendor/lib/modules/modules.softdep:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.softdep \
+    vendor/xiaomi/juice/proprietary/vendor/lib/modules/qca_cld3_wlan.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/qca_cld3_wlan.ko
 
 PRODUCT_PACKAGES += \
     libplatformconfig \
