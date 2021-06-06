@@ -3036,7 +3036,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/juice/proprietary/vendor/lib/modules/qca_cld3_wlan.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/qca_cld3_wlan.ko
 
 PRODUCT_PACKAGES += \
-    libplatformconfig \
+    libfastcvopt \
+    libthermalclient \
     SoterService \
     CACertService \
     CneApp \
