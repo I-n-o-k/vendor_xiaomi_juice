@@ -24,10 +24,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/juice/proprietary/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/xiaomi/juice/proprietary/product/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml \
     vendor/xiaomi/juice/proprietary/product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml \
-    vendor/xiaomi/juice/proprietary/system_ext/app/FM/lib/arm64/libqcomfm_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/FM/lib/arm64/libqcomfm_jni.so \
     vendor/xiaomi/juice/proprietary/system_ext/app/Nfc_st/lib/arm64/libnfc_st_dta_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/Nfc_st/lib/arm64/libnfc_st_dta_jni.so \
     vendor/xiaomi/juice/proprietary/system_ext/app/Nfc_st/lib/arm64/libstnfc_nci_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/Nfc_st/lib/arm64/libstnfc_nci_jni.so \
-    vendor/xiaomi/juice/proprietary/system_ext/app/com.qualcomm.qti.services.systemhelper/lib/arm64/libsystemhelper_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/com.qualcomm.qti.services.systemhelper/lib/arm64/libsystemhelper_jni.so \
     vendor/xiaomi/juice/proprietary/system_ext/bin/bt_logger:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/bt_logger \
     vendor/xiaomi/juice/proprietary/system_ext/bin/diag_callback_sample_system:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/diag_callback_sample_system \
     vendor/xiaomi/juice/proprietary/system_ext/bin/diag_dci_sample_system:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/diag_dci_sample_system \
@@ -664,10 +662,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/juice/proprietary/system_ext/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.latency@2.0.so \
     vendor/xiaomi/juice/proprietary/system_ext/lib64/vendor.qti.qspmhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.qspmhal@1.0.so \
     vendor/xiaomi/juice/proprietary/system_ext/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.voiceprint@1.0.so \
-    vendor/xiaomi/juice/proprietary/system_ext/priv-app/Settings/lib/arm64/libjpgt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/Settings/lib/arm64/libjpgt.so \
-    vendor/xiaomi/juice/proprietary/system_ext/priv-app/Settings/lib/arm64/liblept.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/Settings/lib/arm64/liblept.so \
-    vendor/xiaomi/juice/proprietary/system_ext/priv-app/Settings/lib/arm64/libpngt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/Settings/lib/arm64/libpngt.so \
-    vendor/xiaomi/juice/proprietary/system_ext/priv-app/Settings/lib/arm64/libtess.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/Settings/lib/arm64/libtess.so \
     vendor/xiaomi/juice/proprietary/system_ext/priv-app/WfdService/lib/arm64/libwfdnative.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/WfdService/lib/arm64/libwfdnative.so \
     vendor/xiaomi/juice/proprietary/system_ext/priv-app/ims/lib/arm64/libimscamera_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/ims/lib/arm64/libimscamera_jni.so \
     vendor/xiaomi/juice/proprietary/system_ext/priv-app/ims/lib/arm64/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/ims/lib/arm64/libimsmedia_jni.so \
@@ -3041,58 +3035,19 @@ PRODUCT_PACKAGES += \
     SoterService \
     CACertService \
     CneApp \
-    ConnectionSecurityService \
     IWlanService \
-    IconShapeOverlay \
-    NotchOverlay \
-    QCC-TR-UI \
-    SSGTelemetryService \
-    SensorTestTool \
     TimeService \
-    pasrservice \
-    ConfURIDialer \
     DeviceInfo \
-    DeviceStatisticsService \
     DynamicDDSService \
-    FM \
     Nfc_st \
-    PerformanceMode \
-    QCC-AUTHMGR \
-    QCC \
-    QColor \
-    QTIDiagServices \
-    QdcmFF \
     QtiTelephonyService \
-    WAPPushManager \
-    WigigTetheringRRO \
     atfwd \
-    colorservice \
-    com.qualcomm.qti.services.secureui \
-    com.qualcomm.qti.services.systemhelper \
-    datastatusnotification \
     embms \
     imssettings \
-    remoteSimLockAuthentication \
-    remotesimlockservice \
-    uceShimService \
-    uimgbaservice \
-    uimlpaservice \
-    uimremoteclient \
-    uimremoteserver \
-    xdivert \
-    CarrierConfig \
-    EmergencyInfo \
-    MiuiSystemUI \
-    QAS_DVC_MSP \
-    Settings \
-    StorageManager \
-    WallpaperCropper \
     WfdService \
-    com.qualcomm.location \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
-    seccamservice \
     WfdCommon \
     tcmclient \
     com.fingerprints.extension \
