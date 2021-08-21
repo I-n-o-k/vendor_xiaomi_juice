@@ -3117,26 +3117,12 @@ PRODUCT_PACKAGES += \
     vendor.qti.latency-V2.0-java \
     vendor.qti.voiceprint-V1.0-java \
     wigig-service \
-    android.hardware.atrace@1.0-service \
-    android.hardware.dumpstate@1.1-service.xiaomi \
-    android.hardware.gnss@2.1-service-qti \
-    android.hardware.graphics.mapper-impl-qti-display \
-    android.hardware.health@2.1 \
     android.hardware.neuralnetworks@1.3-service-qti \
     android.hardware.sensors@2.0-multihal \
-    android.hardware.wifi.hostapd \
-    android.hardware.wifi@1.0-service \
     manifest_android.hardware.drm@1.3-service.clearkey \
     manifest_android.hardware.drm@1.3-service.widevine \
-    manifest_vendor.xiaomi.hardware.mfidoca \
     manifest_vendor.xiaomi.hardware.mlipay \
-    manifest_vendor.xiaomi.hardware.mtdservice \
-    manifest_vendor.xiaomi.hardware.tidaservice \
-    manifest_vendor.xiaomi.hardware.vsimapp \
     vendor.qti.gnss@4.0-service \
-    vendor.qti.hardware.display.allocator-service \
-    vendor.qti.hardware.display.composer-service \
-    vendor.qti.hardware.vibrator.service \
     vendor.xiaomi.hardware.misys@1.0 \
     vendor.xiaomi.hardware.misys@2.0 \
     vendor.xiaomi.hardware.misys@3.0
