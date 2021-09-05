@@ -2515,6 +2515,10 @@ PRODUCT_PACKAGES += \
     wigig-service \
     android.hardware.neuralnetworks@1.3-service-qti \
     android.hardware.sensors@2.0-multihal \
+    manifest_vendor.xiaomi.hardware.mfidoca \
+    manifest_vendor.xiaomi.hardware.mtdservice \
+    manifest_vendor.xiaomi.hardware.tidaservice \
+    manifest_vendor.xiaomi.hardware.vsimapp \
     manifest_android.hardware.drm@1.3-service.clearkey \
     manifest_android.hardware.drm@1.3-service.widevine \
     manifest_vendor.xiaomi.hardware.mlipay \
