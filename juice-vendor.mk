@@ -962,9 +962,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/juice/proprietary/vendor/firmware/scuba_ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/scuba_ipa_fws.mdt \
     vendor/xiaomi/juice/proprietary/vendor/firmware/st21nfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw.bin \
     vendor/xiaomi/juice/proprietary/vendor/firmware/st21nfc_fw7.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw7.bin \
-    vendor/xiaomi/juice/proprietary/vendor/firmware/wigig/wigig.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wigig/wigig.ini \
-    vendor/xiaomi/juice/proprietary/vendor/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini \
-    vendor/xiaomi/juice/proprietary/vendor/firmware/wlan/qca_cld/wlan_mac.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/wlan_mac.bin \
     vendor/xiaomi/juice/proprietary/vendor/lib/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/btaudio_offload_if.so \
     vendor/xiaomi/juice/proprietary/vendor/lib/camera/com.qti.eeprom.juice_ofilm_ov8856_front_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.juice_ofilm_ov8856_front_eeprom.so \
     vendor/xiaomi/juice/proprietary/vendor/lib/camera/com.qti.eeprom.juice_sunny_ov8856_front_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.juice_sunny_ov8856_front_eeprom.so \
