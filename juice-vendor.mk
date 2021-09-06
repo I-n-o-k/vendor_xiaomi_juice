@@ -594,7 +594,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/juice/proprietary/vendor/etc/default-permissions/com.qualcomm.qti.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/com.qualcomm.qti.cne.xml \
     vendor/xiaomi/juice/proprietary/vendor/etc/default.lm:$(TARGET_COPY_OUT_VENDOR)/etc/default.lm \
     vendor/xiaomi/juice/proprietary/vendor/etc/device_features/juice.xml:$(TARGET_COPY_OUT_VENDOR)/etc/device_features/juice.xml \
-    vendor/xiaomi/juice/proprietary/vendor/etc/device_info.json:$(TARGET_COPY_OUT_VENDOR)/etc/device_info.json \
     vendor/xiaomi/juice/proprietary/vendor/etc/display/advanced_sf_offsets.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/advanced_sf_offsets.xml \
     vendor/xiaomi/juice/proprietary/vendor/etc/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml \
     vendor/xiaomi/juice/proprietary/vendor/etc/focal/focaltech_mp_fw_huaxing.ini:$(TARGET_COPY_OUT_VENDOR)/etc/focal/focaltech_mp_fw_huaxing.ini \
