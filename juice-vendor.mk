@@ -973,7 +973,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/juice/proprietary/vendor/lib/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/btaudio_offload_if.so \
     vendor/xiaomi/juice/proprietary/vendor/lib/camera/com.qti.eeprom.juice_ofilm_ov8856_front_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.juice_ofilm_ov8856_front_eeprom.so \
     vendor/xiaomi/juice/proprietary/vendor/lib/camera/com.qti.eeprom.juice_sunny_ov8856_front_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.juice_sunny_ov8856_front_eeprom.so \
-0    vendor/xiaomi/juice/proprietary/vendor/lib/camera/com.qti.sensor.juice_aacaf_hi259_macro.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.juice_aacaf_hi259_macro.so \
+    vendor/xiaomi/juice/proprietary/vendor/lib/camera/com.qti.sensor.juice_aacaf_hi259_macro.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.juice_aacaf_hi259_macro.so \
     vendor/xiaomi/juice/proprietary/vendor/lib/camera/com.qti.sensor.juice_acc_ov8856_ultra.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.juice_acc_ov8856_ultra.so \
     vendor/xiaomi/juice/proprietary/vendor/lib/camera/com.qti.sensor.juice_ofilm_gc02m1b_depth.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.juice_ofilm_gc02m1b_depth.so \
     vendor/xiaomi/juice/proprietary/vendor/lib/camera/com.qti.sensor.juice_ofilm_ov8856_front.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.juice_ofilm_ov8856_front.so \
